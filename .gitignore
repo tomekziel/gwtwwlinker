@@ -14,3 +14,7 @@ gwt-unitCache/
 # more caches and things from deploy #
 war/WEB-INF/deploy/
 war/WEB-INF/classes/
+/code/war/WEB-INF/classes
+/code/war/WEB-INF/deploy
+/code/war/sampleworker
+/code/war/webapp

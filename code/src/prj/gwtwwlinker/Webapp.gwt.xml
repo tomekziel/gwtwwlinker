@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  When updating your version of GWT, you should also update this DTD reference,
+  so that your app can take advantage of the latest GWT module capabilities.
+-->
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.5.1//EN"
+  "http://google-web-toolkit.googlecode.com/svn/tags/2.5.1/distro-source/core/src/gwt-module.dtd">
+<module rename-to='webapp'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name="elemental.Elemental"/>
+  <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+
+  <!-- Other module inherits                                      -->
+  <inherits name='com.google.gwt.core.Core' />
+  
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class='prj.gwtwwlinker.client.WebApp'/>
+	
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client'/>
+  <add-linker name="std" />
+  <set-property name="user.agent" value="gecko1_8" />
+
+
+
+
+</module>
