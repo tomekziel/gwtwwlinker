@@ -35,7 +35,8 @@ import com.google.gwt.dev.util.DefaultTextOutput;
  * Derived from project Titaniumj Mobile, where it was described as 
  * "This linker removes unnecessary GWT stuff to
  * make the generated JS work inside Titanium
- * TiMobileHybridLinker.java is part of Ti4j 3.1.0 Copyright 2013 Emitrom LLC" 
+ * TiMobileHybridLinker.java is part of Ti4j 3.1.0 Copyright 2013 Emitrom LLC"
+ * https://github.com/emitrom/titanium4j/blob/master/src/com/emitrom/ti4j/mobile/linker/TiMobileLinker.java 
  */
 @LinkerOrder(LinkerOrder.Order.PRIMARY)
 public class WorkerLinker extends AbstractLinker {
