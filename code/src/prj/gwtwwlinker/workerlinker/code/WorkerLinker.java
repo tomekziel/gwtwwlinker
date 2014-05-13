@@ -90,6 +90,8 @@ public class WorkerLinker extends AbstractLinker {
         out.newline();
         out.print("$ti4jCompilationDate = " + compilationTime + ";");
         out.newline();
+        out.print("$wnd.Array = function(){};");
+        out.newline();
         
         // gwtwwlinker - register web worker message receiver and pass it to the bridge function
         // registered in SampleWorker class
